@@ -1,1 +1,78 @@
-Тука водев документација за вежбата
+1. Инсталирав Git и направив профил.
+2. Го променив името на мојата главна гранка во master.
+3. Креирав репо со име SI_2024_lab1_191175
+4. Направив локален репо со користење на следите команди:
+   4.1 mkdir SI_2024_lab1_191175 
+   4.2 cd SI_2024_lab1_191175
+   4.3 git init
+5. Се лоцирав на master гранката и го поврзав локалниот репо со оддалечениот репо преку:
+   5.1 git branch -M master
+   5.2 git remote add origin https://github.com/MarkoTomovski/SI_2024_lab1_191175.git
+6. Локално направив README.md и пополнив информации што треба(име, презиме, број на индекс)
+   6.1 git add README.md
+   6.2 git commit -m "First Commit"
+   6.3 git push -u origin master
+7. Ги преземав 3те линка, ги поставив локалниот репо и ги искористив овие команди:
+   7.1 git status(да направам проверка дали се успешно додадени во локалниот репо)
+   7.2 git add SILab1Main.java SILab1_1.java SILab1_2.java
+   7.3 git commit -m "Add starter code"
+8. Ги отворив локално SILab1_1 и SILab1_2 и го поправив грешките. Се лоцирав во Git bash и ги извршив командите:
+   8.1 git status(да направам проверка дали се успешно зачувани)
+   8.2 git add SILab1_1.java SILab1_2.java
+   8.3 git commit -m "Fixed errors in SILab1_1 and SILab1_2"
+9. Креирав 2 нови гранки со користење на командите:
+   9.1 git branch (да проверам првин каде сум)
+   9.2 git checkout -b bug1
+   9.3 git checkout -b bug2
+10. Се префрлив на гранката bug1 преку командата:
+   10.1 git checkout bug1
+11. Ја поправив грешката и потоа ги искористив командите:
+   11.1 git status(да направам проверка дали се успешно зачувани)
+   11.2 git add SILab1_1.java
+   11.3 git commit -m "Fix wrong condition in filterOddLengthStrings"
+12. Се префрлив на гранката bug1 преку командата:
+   12.1 git checkout bug1
+13. Ја поправив грешката и потоа ги искористив командите:
+   13.1 git status(да направам проверка дали се успешно зачувани)
+   13.2 git add SILab1_2.java
+   13.3 git commit -m "Fix wrong condition in makeBigStringFrom"
+14. Се префрлив на гранката bug1 преку командата:
+   14.1 git checkout bug1
+15. Направив промени во SILab1Main како што беше дадено според барањето и ги искористив следниве команди потоа:
+   15.1 git status(да направам проверка дали се успешно зачувани)
+   15.2 git add SILab1Main.java
+   15.3 git commit -m "Call method filterOddLengthStrings in main class"
+16. Се префрлив на гранката bug2 преку командата:
+   16.1 git checkout bug2
+17. Направив промени во SILab1Main како што беше дадено според барањето и ги искористив следниве команди потоа:
+   17.1 git status(да направам проверка дали се успешно зачувани)
+   17.2 git add SILab1Main.java
+   17.3 git commit -m "Call method makeBigStringFrom in main class"
+18. Направив синхронизација на сите гранки со оддалечениот репо преку командата:
+   18.1 git pull origin master
+19. Се префрлив на гранката master преку командата:
+   19.1 git checkout master
+20. Ја споив гранката bug1 со master преку командата:
+   20.1 git merge bug1 (немав конфликти)
+21. Направив синхронизација на сите гранки со оддалечениот репо преку командата:
+   21.1 git pull origin master
+22. Се префрлив на гранката bug2 преку командата:
+   22.1 git checkout bug2
+23. Кога пробувам да направам rebase наидувам на проблем со користење на командата:
+   23.1 git rebase master (во SILab1Main има коментари каде што наидувам на грешката и каде треба да ја поправам)
+24. Се префрлив на гранката master преку командата:
+   24.1 git checkout master
+25. ја користам командата: 
+	git merge bug2
+	Auto-merging SILab1Main.java
+	CONFLICT (content): Merge conflict in SILab1Main.java
+	Automatic merge failed; fix conflicts and then commit the result.
+26. Направив синхронизација на сите гранки со оддалечениот репо преку командата:
+   26.1 git pull origin master
+28. Направив датотека logs.txt во локалниот репо и ги користев следниве команди:
+   28.1 git log > logs.txt
+   28.2 echo "Тука водев документација за вежбата" > 191175.txt
+   28.3 git add logs.txt 191175.txt
+   28.4 git commit -m "Final commit"
+29. Направив синхронизација со командата:
+  29.1 git commit -m "Final commit"
