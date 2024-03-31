@@ -1,0 +1,48 @@
+commit 5c4b6930ebeb540b1932548a6bf50b1186fb25a9
+Merge: 66b7aab ba6a85c
+Author: MarkoTomovski <markotomovski79@gmail.com>
+Date:   Sun Mar 31 20:00:22 2024 +0200
+
+    Resolve conflicts
+
+commit ba6a85cf18e716a984595d015f00a8f11cbd13f1
+Author: MarkoTomovski <markotomovski79@gmail.com>
+Date:   Sun Mar 31 19:33:28 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 66b7aab41a1c93791f3a7740752bcbb5ac52752a
+Author: MarkoTomovski <markotomovski79@gmail.com>
+Date:   Sun Mar 31 19:29:37 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 83c6f9ebdbd6a0a35de375454d0a379b15dec09a
+Author: MarkoTomovski <markotomovski79@gmail.com>
+Date:   Sun Mar 31 19:24:30 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit eca212a6a68b6984e2f42501c41fd193b71a2553
+Author: MarkoTomovski <markotomovski79@gmail.com>
+Date:   Sun Mar 31 18:56:15 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit d693ea3687fa6f0b9e5acbe10ca258a0e8a47350
+Author: MarkoTomovski <markotomovski79@gmail.com>
+Date:   Sun Mar 31 18:47:52 2024 +0200
+
+    Fixed errors in SILab1_1 and SILab1_2
+
+commit ce1e302edb757157362b2972f6a56e501f0a3f0d
+Author: MarkoTomovski <markotomovski79@gmail.com>
+Date:   Sun Mar 31 18:41:21 2024 +0200
+
+    Add starter code
+
+commit d48e21211b0c8b6ff2e575451bbe7ea81f102388
+Author: MarkoTomovski <markotomovski79@gmail.com>
+Date:   Sun Mar 31 17:44:30 2024 +0200
+
+    First Commit
